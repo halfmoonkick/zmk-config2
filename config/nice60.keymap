@@ -26,7 +26,7 @@
     &kp TAB  &kp Q  &kp W  &kp E  &kp R  &kp T  &kp Y  &kp U  &kp I  &kp O  &kp P  &kp LBKT  &kp RBKT  &kp BSLH
     &kp CLCK  &kp A  &kp S  &kp D  &kp F  &kp G  &kp H  &kp J  &kp K  &kp L  &kp SEMI &kp SQT           &kp RET
     &kp LSHFT   &kp Z  &kp X  &kp C  &kp V  &kp B  &kp N  &kp M  &kp COMMA &kp DOT &kp FSLH           &kp RSHFT
-    &kp LCTRL &kp LGUI &kp LALT             &kp SPACE                     &kp RALT  &K_APP  &mo 1   &kp RCTRL
+    &kp LCTRL &kp LGUI &kp LALT             &kp SPACE                     &kp RALT  &kp K_APP  &mo 1   &kp RCTRL
             >;
         };
 
@@ -39,7 +39,7 @@
 // |   BT 4  |      |      |             TOG RGB                | PRT SCR |       |       |  DEL  |
 // ------------------------------------------------------------------------------------------------
             bindings = <
-    &bt BT_CLR    &K_MUTE    &K_VOLUME_DOWN    &K_VOL_UP    &trans    &K_PREV    &K_PLAY_PAUSE    &K_NEXT    &kp F8    &kp F9    &kp F10    &kp F11    &kp F12    &rgb_ug RGB_EFR
+    &bt BT_CLR    &kp K_MUTE    &kp K_VOLUME_DOWN    &kp K_VOL_UP    &trans    &kp K_PREV    &kp K_PLAY_PAUSE    &kp K_NEXT    &kp F8    &kp F9    &kp F10    &kp F11    &kp F12    &rgb_ug RGB_EFR
     &bt BT_SEL 0  &trans    &kp UP    &trans  &rgb_ug RGB_HUI  &rgb_ug RGB_SAI &rgb_ug RGB_BRI &rgb_ug RGB_SPI  &trans   &trans   &trans   &trans  &trans          &trans
     &bt BT_SEL 1   &kp LEFT  &kp DOWN  &kp RIGHT &rgb_ug RGB_HUD &rgb_ug RGB_SAD &rgb_ug RGB_BRD &rgb_ug RGB_SPD &trans   &trans   &trans   &trans        &rgb_ug RGB_EFF
     &bt BT_SEL 2    &trans    &trans    &trans   &trans          &trans          &trans          &trans          &trans   &trans   &trans                          &trans
