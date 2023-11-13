@@ -19,7 +19,7 @@
 // | TAB  |  Q  |  W  |  E  |  R  |  T  |  Y  |  U  |  I  |  O  |  P  |  [  |  ]  |   "|"   |
 // | CAPS  |  A  |  S  |  D  |  F  |  G  |  H  |  J  |  K  |  L  |  ;  |  '  |     ENTER    |
 // |  SHIFT  |  Z  |  X  |  C  |  V  |  B  |  N  |  M  |  ,  |  .  |  /  |      SHIFT       |
-// |  CTL  |  WIN  |  ALT  |            SPACE              |  ALT  |  APP  |  MO(1) |  CTL  |
+// |  CTL  |  WIN  |  ALT  |            SPACE              |  ALT  |  FN(1)  |  FN(2) |  CTL  |
 // ------------------------------------------------------------------------------------------
             bindings = <
     &gresc  &kp N1 &kp N2 &kp N3 &kp N4 &kp N5 &kp N6 &kp N7 &kp N8 &kp N9 &kp N0 &kp MINUS &kp EQUAL  &kp BSPC
@@ -30,9 +30,9 @@
             >;
         };
 
-         rgb_layer {
+         Function2 {
 // ------------------------------------------------------------------------------------------------
-// | BT CLR| Mute | Vol- | Vol+ |   |PREV| play | next  |  | APP | PSCRN  | BRI - | BRI + | DEL |
+// | BT CLR| Mute | Vol- | Vol+ |   |PREV| play | next  |  | APP MENU | PSCRN  | BRI - | BRI + | DEL |
 // |  BT 1   |   |  UP |   |       |       |       |       |   |     |    |     |     |           |
 // |   BT 2   | LT |  DN  | RT |       |        |      |       |   |     |   |     |              |
 // |    BT 3     |     |      |      |     |     |     |     |     |     |     |                  |
@@ -46,7 +46,7 @@
     &bt BT_SEL 3  &trans   &trans                           &trans                                      &trans      &trans      &trans               &trans
             >;
         };
-        function{
+        Function1 {
 // ------------------------------------------------------------------------------------------------
 // | BT CLR |  F1  |  F2  |  F3  |  F4  |  F5  |  F6  |  F7 |  F8 |  F9  |  F10  |  F11 |  F12 | DEL |
 // |  BT 1   |   |  UP |   |       |       |       |       |   |     |    |     |     |           |
